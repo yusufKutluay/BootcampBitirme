@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "16678714114",
+    "project_id": "sepetlebootcamp",
+    "storage_bucket": "sepetlebootcamp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16678714114:android:dcba1d20f547224d94201b",
+        "android_client_info": {
+          "package_name": "com.yusufkutluay.bootcampbitirme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqf0k_rqk9bexi0JZt5J9LK5i1MKdvcX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

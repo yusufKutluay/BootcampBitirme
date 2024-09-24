@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Sepetle</string>
+    <string name="title_activity_main2">MainActivity2</string>
+
+
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="fullfield_warning">Please fill in all fields!</string>
+    <string name="basket">Add to Cart</string>
+    <string name="basketed">Basketed</string>
+
+    <string name="login_warning_mistake">Incorrect email or password!</string>
+    <string name="login_newAccount">Yeni bir hesap oluştur</string>
+    <string name="login_newAccount_comment">Create a new account</string>
+    <string name="login_entry">Login</string>
+
+    <string name="signup_fullname"><![CDATA[Name & Surname]]></string>
+    <string name="signup_username">User Name</string>
+    <string name="signup_warning_comment">You have logged in incorrectly!</string>
+    <string name="signup_signup">Sign up</string>
+
+
+    <string name="basketpage_title">Basket</string>
+    <string name="basketpage_button_confirm">Confirm Cart</string>
+    <string name="basketpage_add">Add product to cart</string>
+    <string name="basketpage_adress">Delivery Address</string>
+    <string name="basketpage_adress_comment">Delivery Address</string>
+    <string name="basketpage_card_information">Card Information</string>
+    <string name="basketpage_cardNumber">Card Number</string>
+    <string name="basketpage_expiration_date">Expiration date</string>
+    <string name="basketpage_month">Month</string>
+    <string name="basketpage_year">Year</string>
+    <string name="basketpage_cvv">CVV</string>
+    <string name="basketpage_finish_order">Complete Order</string>
+
+    <string name="fooddetails_piece">Piece : %1$s</string>
+    <string name="fooddetails_total">Total : %1$s ₺</string>
+    <string name="fooddetails_select_quantity">Select Quantity</string>
+    <string name="fooddetails_discount">10% discount</string>
+    <string name="fooddetails_ınstant">Instant delivery!</string>
+    <string name="fooddetails_loved">Most loved!</string>
+
+    <string name="homepage_city_informationget">Getting city information…</string>
+    <string name="homepage_search_comment">Search in products…</string>
+    <string name="homepage_delivery_comment">Instant, free delivery</string>
+    <string name="homepage_basketed_comment">Taste Basket!</string>
+
+    <string name="drink">Drink</string>
+    <string name="sweet">Sweet</string>
+    <string name="grill">Grill</string>
+    <string name="pasta">Pasta</string>
+    <string name="oven">Oven</string>
+    <string name="category_not_found">No category found</string>
+    <string name="bottombar_home">Home Page</string>
+    <string name="bottombar_profile">Profile</string>
+
+    <string name="name_surname"><![CDATA[Name & Surname]]></string>
+    <string name="username">User Name</string>
+    <string name="order_myorder">My Orders</string>
+    <string name="price">"Price : "</string>
+    <string name="piece">"Piece : "</string>
+    <string name="order_time">Order Time  : %1$s</string>
+    <string name="order_total">Cart amount : %1$s ₺</string>
+    <string name="total">Total : %1$s ₺</string>
+
+    <string name="log_out">- Log Out</string>
+    <string name="account_ınformation">- Account Information</string>
+    <string name="previous_order">- My Previous Orders</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="warning">Warning</string>
+    <string name="alertd_title">Are you sure you want to log out?</string>
+    <string name="title_activity_transitions">ActivityTransitions</string>
+    <string name="aciklama_sözlesme">
+        "This User Agreement ("Agreement") is for the "Sepet" mobile application (hereinafter referred to as the "Application"). Please read it carefully before using the Application. The Application is provided by [Kutluay App], and this Agreement outlines your rights and obligations related to the use of the Application.\n"
+        "\n"
+        "1.	Acceptance\n"
+        "By using the Application, you accept the terms of this Agreement. If you do not accept these terms, please refrain from using the Application.\n"
+        "\n"
+        "2.	User Account\n"
+        "You may need to create a user account to use the Application. You are responsible for the security of your account. Do not share your password with anyone and keep your account secure. [Kutluay App] is not responsible for any unauthorized use of your account.\n"
+        "\n"
+        "3.	Application Use\n"
+        "You must use the Application only for legal and reasonable purposes. It is prohibited to misuse the Application or share harmful or illegal content. We strive to ensure that the content and services provided in the Application are accurate and up-to-date, but we do not guarantee this.\n"
+        "\n"
+        "4.	Intellectual Property\n"
+        "All content, designs, software, and graphics within the Application are owned by [Kutluay App] and are protected by copyright. Unauthorized use of the content related to the Application is prohibited.\n"
+        "\n"
+        "5.	Third-Party Links\n"
+        "The Application may contain links to third-party websites or services. These links are provided solely for your convenience. [Kutluay App] is not responsible for the content or use of these links.\n"
+        "\n"
+        "6.	Privacy\n"
+        "For information on how user data is collected and used, please review the Privacy Policy.\n"
+        "\n"
+        "7.	Modification of Agreement\n"
+        "[Kutluay App] may update this Agreement from time to time. The updated Agreement will be effective from the date it is published within the Application. If you do not accept the changes to the Agreement, you must stop using the Application.\n"
+        "\n"
+        "8.	Validity\n"
+        "This Agreement is valid for the duration of your use of the Application. In the event of a breach of the terms of the Agreement, [Kutluay App] reserves the right to suspend or terminate your account.\n"
+        "\n"
+        "9.	Contact\n"
+        "For any questions or comments regarding this Agreement, you can contact us at [eaglepilot1907@gmail.com].\n"
+
+   </string>
+    <string name="user_agreement">User Agreement</string>
+    <string name="close">Close</string>
+    <string name="accoun_alert_text">Are you sure you want to permanently delete your account?</string>
+    <string name="delete_account">Delete account</string>
+
+
+</resources>

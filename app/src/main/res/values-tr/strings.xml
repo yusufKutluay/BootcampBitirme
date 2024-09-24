@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Sepetle</string>
+    <string name="title_activity_main2">MainActivity2</string>
+
+
+    <string name="email">E-posta</string>
+    <string name="password">Şifre</string>
+    <string name="fullfield_warning">Lütfen tüm alanları doldurun!</string>
+    <string name="basket">Sepetle</string>
+    <string name="basketed">Sepetlendi</string>
+
+    <string name="login_warning_mistake">Hatalı e-posta veya şifre!</string>
+    <string name="login_newAccount">Yeni bir hesap oluştur</string>
+    <string name="login_newAccount_comment">Hesabınız yok mu?</string>
+    <string name="login_entry">Giriş Yap</string>
+
+    <string name="signup_fullname"><![CDATA[Ad & Soyad]]></string>
+    <string name="signup_username">Kullanıcı Adı</string>
+    <string name="signup_warning_comment">Hatalı giriş yaptınız!</string>
+    <string name="signup_signup">Kaydol</string>
+
+
+    <string name="basketpage_title">Sepet</string>
+    <string name="basketpage_button_confirm">Sepeti Onayla</string>
+    <string name="basketpage_add">Sepete ürün ekleyin</string>
+    <string name="basketpage_adress">Teslimat Adresi</string>
+    <string name="basketpage_adress_comment">Adresinizi giriniz</string>
+    <string name="basketpage_card_information">Kart Bilgileri</string>
+    <string name="basketpage_cardNumber">Kart Numarası</string>
+    <string name="basketpage_expiration_date">Son Kullanma Tarihi</string>
+    <string name="basketpage_month">Ay</string>
+    <string name="basketpage_year">Yıl</string>
+    <string name="basketpage_cvv">CVV</string>
+    <string name="basketpage_finish_order">Siparişi Tamamla</string>
+
+    <string name="fooddetails_piece">Adet : %1$s</string>
+    <string name="fooddetails_total">Toplam : %1$s ₺</string>
+    <string name="fooddetails_select_quantity">Adet Seç</string>
+    <string name="homepage_city_informationget">Şehir bilgisi alınıyor…</string>
+    <string name="homepage_search_comment">Ürünlerde ara…</string>
+    <string name="homepage_delivery_comment">Anında, ücretsiz teslimat</string>
+    <string name="homepage_basketed_comment">Lezzet Sepeti!</string>
+
+    <string name="drink">İçecek</string>
+    <string name="sweet">Tatlı</string>
+    <string name="grill">Izgara</string>
+    <string name="pasta">Makarna</string>
+    <string name="oven">Fırın</string>
+    <string name="category_not_found">Kategori bulunamadı</string>
+    <string name="bottombar_home">Anasayfa</string>
+    <string name="bottombar_profile">Profil</string>
+
+    <string name="name_surname"><![CDATA[Ad & Soyad]]></string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="order_myorder">Siparislerim</string>
+    <string name="price">"Fiyat : "</string>
+    <string name="piece">"Adet : "</string>
+    <string name="order_time">Sipariş saati : %1$s</string>
+    <string name="order_total">Sepet tutarı : %1$s ₺</string>
+    <string name="total">Toplam : %1$s ₺</string>
+
+    <string name="log_out">- Çıkış Yap</string>
+    <string name="account_ınformation">- Hesap Bilgileri</string>
+    <string name="previous_order">- Önceki Siparişlerim</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="warning">Uyarı</string>
+    <string name="alertd_title">Çıkış yapmak istediğine emin misin?</string>
+    <string name="title_activity_transitions">ActivityTransitions</string>
+    <string name="aciklama_sözlesme">
+        "Bu Kullanıcı Sözleşmesi (“Sözleşme”), “Sepet” adlı mobil uygulamayı (bundan sonra “Uygulama” olarak anılacaktır) kullanmadan önce dikkatlice okuyunuz. Uygulama, [Kutluay App] tarafından sağlanmaktadır ve bu Sözleşme, Uygulama’yı kullanmanızla ilgili haklarınızı ve yükümlülüklerinizi belirler.\n"
+        "\n"
+        "1. Kabul\n"
+        "Uygulamayı kullanarak, bu Sözleşme’nin şartlarını kabul etmiş olursunuz. Eğer bu şartları kabul etmiyorsanız, Uygulamayı kullanmaktan vazgeçiniz.\n"
+        "\n"
+        "2. Kullanıcı Hesabı\n"
+        "Uygulamayı kullanmak için bir kullanıcı hesabı oluşturmanız gerekebilir.\n"
+        "Hesabınızın güvenliğinden siz sorumlusunuz. Şifrenizi kimseyle paylaşmayınız ve hesabınızı güvende tutunuz.\n"
+        "Hesabınızın izinsiz kullanımından dolayı [Kutluay App] sorumlu değildir.\n"
+        "\n"
+        "3. Uygulama Kullanımı\n"
+        "Uygulamayı yalnızca yasal ve makul amaçlarla kullanmalısınız.\n"
+        "Uygulamayı kötüye kullanmak, zararlı veya yasadışı içerikler paylaşmak yasaktır.\n"
+        "Uygulama içinde sağlanan içerik ve hizmetlerin doğru ve güncel olmasını sağlamak için çaba gösteriyoruz, ancak bu konuda herhangi bir garanti vermiyoruz.\n"
+        "\n"
+        "4. Fikri Mülkiyet\n"
+        "Uygulama içindeki tüm içerikler, tasarımlar, yazılımlar ve grafikler [Kutluay App]’in mülkiyetindedir ve telif haklarıyla korunmaktadır.\n"
+        "Uygulama ile ilgili içeriklerin izinsiz kullanımı yasaktır.\n"
+        "\n"
+        "5. Üçüncü Taraf Bağlantıları\n"
+        "Uygulama, üçüncü taraf web sitelerine veya hizmetlerine bağlantılar içerebilir. Bu bağlantılar, yalnızca sizin için kolaylık sağlamak amacıyla sunulmaktadır. [Kutluay App], bu bağlantıların içeriğinden veya kullanımdan sorumlu değildir.\n"
+        "\n"
+        "6. Gizlilik\n"
+        "Kullanıcı verilerinin nasıl toplandığı ve kullanıldığı hakkında bilgi için lütfen Gizlilik Politikasını inceleyiniz.\n"
+        "\n"
+        "7. Sözleşmenin Değiştirilmesi\n"
+        "[Kutluay App], bu Sözleşme’yi zaman zaman güncelleyebilir. Güncellenmiş Sözleşme, Uygulama içinde yayınlandığı tarihten itibaren geçerli olacaktır.\n"
+        "Sözleşme’deki değişiklikleri kabul etmiyorsanız, Uygulamayı kullanmayı durdurmalısınız.\n"
+        "\n"
+        "8. Yürürlük\n"
+        "Bu Sözleşme, Uygulama’yı kullandığınız süre boyunca geçerlidir. Sözleşme şartlarını ihlal etmeniz durumunda, [Kutluay App] hesabınızı askıya alma veya sonlandırma hakkına sahiptir.\n"
+        "\n"
+        "9. İletişim\n"
+        "Bu Sözleşme ile ilgili herhangi bir soru veya görüş için [eaglepilot1907@gmail.com] üzerinden bizimle iletişime geçebilirsiniz."
+    </string>
+    <string name="user_agreement">Kullanıcı Sözleşmesi</string>
+    <string name="close">Kapat</string>
+    <string name="fooddetails_discount">%10 indirim</string>
+    <string name="fooddetails_ınstant">Anında teslimat!</string>
+    <string name="fooddetails_loved">En çok sevilen!</string>
+    <string name="accoun_alert_text">Hesabınızı kalıcı olarak silmek istediğinize emin misiniz?</string>
+    <string name="delete_account">Hesabımı sil</string>
+
+</resources>
