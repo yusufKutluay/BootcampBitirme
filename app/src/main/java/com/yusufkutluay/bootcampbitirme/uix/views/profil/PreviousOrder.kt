@@ -1,5 +1,6 @@
 package com.yusufkutluay.bootcampbitirme.uix.views.profil
 
+import LottieAnimationExample
 import android.app.Activity
 import android.content.Context
 import androidx.compose.foundation.Image
@@ -15,6 +16,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -150,12 +152,14 @@ fun PreviousOrder(
             }
 
             }else{
-                Column(
-                    modifier.fillMaxSize(),
+                Column (
+                    modifier
+                        .background(Color.White)  // arka plan rengi
+                        .wrapContentSize(), // full size
                     verticalArrangement = Arrangement.Center,
                     horizontalAlignment = Alignment.CenterHorizontally
-                ) {
-                    Text(text = "Henüz sipariş vermediniz!", fontSize = 16.sp)
+                ){
+                    LottieAnimationExample(animationResId = R.raw.anim_empty)
                 }
             }
         }

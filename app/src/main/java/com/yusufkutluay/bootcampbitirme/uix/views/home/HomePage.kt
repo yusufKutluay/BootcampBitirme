@@ -1,5 +1,6 @@
 package com.yusufkutluay.bootcampbitirme.uix.views.home
 
+import LottieAnimationExample
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
@@ -18,6 +19,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
@@ -103,6 +105,8 @@ fun HomePage(
     val cityName = remember { mutableStateOf(context.getString(R.string.homepage_city_informationget)) }
     val coroutineScope = rememberCoroutineScope()
     val totalPiece = remember { mutableStateOf(0) }
+    val isAnimState = remember { mutableStateOf(false) }
+
 
     // focusManager ile etkin odaklanmaları görüyoruz
     val focusManager = LocalFocusManager.current
@@ -138,6 +142,7 @@ fun HomePage(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+
         Row (
             modifier
                 .fillMaxWidth()
@@ -199,6 +204,19 @@ fun HomePage(
                 )
             )
         }
+
+        if (listFoods.value.isEmpty()){
+            Column (
+                modifier
+                    .background(Color.White)  // arka plan rengi
+                    .wrapContentSize(), // full size
+                verticalArrangement = Arrangement.Center,
+                horizontalAlignment = Alignment.CenterHorizontally
+            ){
+                LottieAnimationExample(animationResId = R.raw.anim_empty)
+            }
+        }
+
         if (userName.value != ""){
             LazyVerticalGrid(  // dikey olarak yan yana iki tane item
                 columns = GridCells.Fixed(2),
@@ -390,7 +408,7 @@ private fun getLocation(
                 val geocoder = Geocoder(context, Locale.getDefault())
                 val addresses = geocoder.getFromLocation(location.latitude, location.longitude, 1)
                 if (addresses!!.isNotEmpty()) {
-                    cityName.value = addresses[0]?.locality ?: "Türkiye"
+                    cityName.value = addresses[0]?.locality ?: "Güngören / İstanbul"
                 }
             }
         }

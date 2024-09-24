@@ -110,5 +110,6 @@
     <string name="fooddetails_loved">En çok sevilen!</string>
     <string name="accoun_alert_text">Hesabınızı kalıcı olarak silmek istediğinize emin misiniz?</string>
     <string name="delete_account">Hesabımı sil</string>
+    <string name="agreement">- Kullanıcı sözleşmesi</string>
 
 </resources>

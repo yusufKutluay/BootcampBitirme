@@ -10,8 +10,8 @@
     <string name="basketed">Basketed</string>
 
     <string name="login_warning_mistake">Incorrect email or password!</string>
-    <string name="login_newAccount">Yeni bir hesap oluştur</string>
-    <string name="login_newAccount_comment">Create a new account</string>
+    <string name="login_newAccount">Create new account</string>
+    <string name="login_newAccount_comment">Don\'t have an account?</string>
     <string name="login_entry">Login</string>
 
     <string name="signup_fullname"><![CDATA[Name & Surname]]></string>
@@ -106,6 +106,7 @@
     <string name="close">Close</string>
     <string name="accoun_alert_text">Are you sure you want to permanently delete your account?</string>
     <string name="delete_account">Delete account</string>
+    <string name="agreement">- User agreement</string>
 
 
 </resources>

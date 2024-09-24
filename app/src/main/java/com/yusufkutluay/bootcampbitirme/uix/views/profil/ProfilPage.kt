@@ -103,7 +103,7 @@ fun ProfilPage(
         ) {
             TextLog(modifier = modifier,context.getString(R.string.account_ınformation),Icons.Filled.Person,isAlertState,context,alertControlTitle,navController,modalBottomSheetState)
             TextLog(modifier = modifier, title = context.getString(R.string.previous_order), icon = Icons.Filled.ShoppingCart,isAlertState,context,alertControlTitle,navController,modalBottomSheetState)
-            TextLog(modifier = modifier, title = "- Kullanıcı sözleşmesi", icon = Icons.Filled.Info,isAlertState,context,alertControlTitle,navController,modalBottomSheetState)
+            TextLog(modifier = modifier, title = stringResource(R.string.agreement), icon = Icons.Filled.Info,isAlertState,context,alertControlTitle,navController,modalBottomSheetState)
             TextLog(modifier = modifier, title = context.getString(R.string.log_out), icon = Icons.Filled.ExitToApp,isAlertState,context,alertControlTitle,navController,modalBottomSheetState)
         }
 
